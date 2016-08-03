@@ -394,6 +394,9 @@ header .hero {
    list-style-type: none;
    margin-bottom: 15px;
  }
+  .left-nav .items ul li a.active {
+   color: #3498DB;
+ }
  .left-nav .items ul li a {
    color:#FFFFFF;
    text-decoration: none;
