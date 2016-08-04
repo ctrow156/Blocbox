@@ -70,14 +70,11 @@ p {
    }
  }
   @media (min-width: 1600px) {
-   .container {
-     width: 1540px;
-   }
-   .container.hero > h1 {
+    .hero h1 {
      font-size: 64px;
    }
-   .container.hero > p {
-    font-size: 38px;
+    .hero p {
+     font-size: 38px;
    }
 }
 /* Header */
@@ -409,7 +406,7 @@ header .hero {
    position: fixed;
    display:block;
  }
- 
+
  @media (min-width:992px) {
    .left-nav {
      height: 100vh;
